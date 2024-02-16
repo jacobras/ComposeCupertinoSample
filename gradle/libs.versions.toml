@@ -16,6 +16,7 @@ junit = "4.13.2"
 kotlin = "1.9.22"
 
 [libraries]
+cupertino = { module = "io.github.alexzhirkevich:cupertino-adaptive", version = "0.1.0-alpha03" }
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 kotlin-test-junit = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlin" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
